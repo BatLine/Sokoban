@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="250.0" prefWidth="237.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="267.0" prefWidth="277.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Label id="lblInloggen" fx:id="lblInloggen" layoutX="104.0" layoutY="45.0" text="Login" textAlignment="CENTER" />
+            <Button id="btnLogin" fx:id="btnLogin" layoutX="48.0" layoutY="161.0" mnemonicParsing="false" onAction="#btnLogin_Click" prefHeight="26.0" prefWidth="149.0" text="Login" />
+            <TextField id="txtNaam" fx:id="txtNaam" layoutX="48.0" layoutY="79.0" promptText="Naam" />
+            <PasswordField id="txtPassword" fx:id="txtPassword" layoutX="48.0" layoutY="119.0" promptText="Password" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

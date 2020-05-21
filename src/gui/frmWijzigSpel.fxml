@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="548.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="548.0" prefWidth="817.0" VBox.vgrow="ALWAYS">
+         <children>
+            <GridPane id="grid" fx:id="grid" layoutX="120.0" layoutY="50.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="10.0" prefWidth="40.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <Label id="lblSpelInfo" fx:id="lblSpelInfo" layoutX="226.0" layoutY="22.0" text="Spelnaam - levelnaam/maxlevels">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button id="btnNieuwLevel" fx:id="btnNieuwLevel" layoutX="281.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnNieuwLevel_Click" text="Nieuw level" />
+            <Button id="btnNextLevel" fx:id="btnNextLevel" layoutX="365.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnNextLevel_Click" text="-&gt;" />
+            <Button id="btnPreviousLevel" fx:id="btnPreviousLevel" layoutX="245.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnPreviousLevel_Click" text="&lt;-" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="181.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="221.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="261.0" startX="81.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="301.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="341.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="381.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="421.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="461.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="141.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="101.0" startX="82.0" startY="-11.0" />
+            <Line endX="482.0" endY="-11.0" layoutX="38.0" layoutY="61.0" startX="82.0" startY="-11.0" />
+            <Line endX="63.0" endY="228.0" layoutX="57.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="97.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="227.5" layoutX="137.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="227.5" layoutX="177.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="217.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="63.0" endY="228.5" layoutX="257.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="297.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="337.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="377.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="62.5" endY="228.5" layoutX="417.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Line endX="63.5" endY="228.5" layoutX="457.0" layoutY="222.0" startX="62.5" startY="-171.5" />
+            <Label layoutX="102.0" layoutY="61.0" text="1" />
+            <Label layoutX="102.0" layoutY="101.0" text="2" />
+            <Label layoutX="102.0" layoutY="141.0" text="3" />
+            <Label layoutX="102.0" layoutY="181.0" text="4" />
+            <Label layoutX="102.0" layoutY="221.0" text="5" />
+            <Label layoutX="102.0" layoutY="261.0" text="6" />
+            <Label layoutX="102.0" layoutY="301.0" text="7" />
+            <Label layoutX="102.0" layoutY="341.0" text="8" />
+            <Label layoutX="102.0" layoutY="381.0" text="9" />
+            <Label layoutX="102.0" layoutY="421.0" text="10" />
+            <Label layoutX="138.0" layoutY="458.0" text="1" />
+            <Label layoutX="178.0" layoutY="458.0" text="2" />
+            <Label layoutX="218.0" layoutY="458.0" text="3" />
+            <Label layoutX="258.0" layoutY="458.0" text="4" />
+            <Label layoutX="298.0" layoutY="458.0" text="5" />
+            <Label layoutX="338.0" layoutY="458.0" text="6" />
+            <Label layoutX="378.0" layoutY="458.0" text="7" />
+            <Label layoutX="418.0" layoutY="458.0" text="8" />
+            <Label layoutX="458.0" layoutY="458.0" text="9" />
+            <Label layoutX="494.0" layoutY="458.0" text="10" />
+            <ComboBox id="cboRij" fx:id="cboRij" layoutX="600.0" layoutY="117.0" prefHeight="25.0" prefWidth="71.0" />
+            <ComboBox id="cboKolom" fx:id="cboKolom" layoutX="600.0" layoutY="148.0" prefHeight="25.0" prefWidth="71.0" />
+            <ComboBox id="cboType" fx:id="cboType" layoutX="600.0" layoutY="188.0" prefWidth="150.0" />
+            <Button id="btnOpslaan" fx:id="btnOpslaan" layoutX="600.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnOpslaan_Click" prefHeight="25.0" prefWidth="150.0" text="Opslaan" />
+            <Label id="lblRij" fx:id="lblRij" layoutX="550.0" layoutY="121.0" text="Rij:" />
+            <Label id="lblKolom" fx:id="lblKolom" layoutX="550.0" layoutY="152.0" text="Kolom:" />
+            <Label id="lblType" fx:id="lblType" layoutX="550.0" layoutY="192.0" text="Type:" />
+            <Button id="btnBack" fx:id="btnBack" layoutX="14.0" layoutY="482.0" mnemonicParsing="false" onAction="#btnBack_Click" prefHeight="53.0" prefWidth="55.0" text="Back" />
+            <Button id="btnVerwijderLevel" fx:id="btnVerwijderLevel" layoutX="274.0" layoutY="512.0" mnemonicParsing="false" onAction="#btnVerwijderLevel_Click" text="Verwijder level" />
+            <ImageView id="ivFoto" fx:id="ivFoto" fitHeight="242.0" fitWidth="217.0" layoutX="541.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
